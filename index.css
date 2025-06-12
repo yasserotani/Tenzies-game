@@ -113,7 +113,7 @@ button {
 
 button.roll-dice {
   height: 50px;
-  width: auto;
+  width: 150px;
   padding: 6px 20px;
   border: none;
   border-radius: 6px;
@@ -149,6 +149,9 @@ button.new-game:hover {
 }
 .rolling {
   animation: diceRoll 0.5s ease-out;
+}
+main {
+  box-shadow: 0px 0px 20px 4px;
 }
 @keyframes diceRoll {
   0% {

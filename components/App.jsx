@@ -101,6 +101,10 @@ export default function App() {
     }
   }, [gameWon]);
 
+  function resetBestShot() {
+    setBestTry(Infinity);
+    localStorage.setItem("bestTry", Infinity);
+  }
   return (
     <main>
       <div className="status">
@@ -109,7 +113,7 @@ export default function App() {
           <div>
             Best shot <span>{bestTry !== Infinity ? bestTry : "-"}</span>
           </div>
-          <button onClick={() => setBestTry(Infinity)}>reset</button>
+          <button onClick={() => resetBestShot()}>reset</button>
         </div>
         <div className="cnt">{rollsCnt > 0 && rollsCnt}</div>
       </div>
@@ -131,9 +135,11 @@ export default function App() {
         <button ref={buttonRef} className="roll-dice" onClick={rollDice}>
           {gameWon ? "New Game" : "Roll"}
         </button>
-        <button className="new-game" onClick={() => newGame()}>
-          new game
-        </button>
+        {!gameWon && (
+          <button className="new-game" onClick={() => newGame()}>
+            new game
+          </button>
+        )}
       </div>
     </main>
   );

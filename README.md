@@ -57,7 +57,7 @@ Then open http://localhost:5173 in your browser. You’re all set!
 
 ## 🔗 Live Demo
 
-## 👉 [Try it on GitHub Pages](https://yasserotani.github.io/tenzies-game/)
+## 👉 [Try it on Live Demo](https://yasserotani.github.io/tenzies-game/)
 
 ## 📌 Notes
 
