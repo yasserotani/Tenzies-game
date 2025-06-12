@@ -21,7 +21,7 @@ Built with ❤️ using React and Vite.
 - **React**
 - **Vite**
 - **JavaScript**
-- CSS
+- **CSS**
 
 ---
 
