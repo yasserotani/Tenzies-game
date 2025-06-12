@@ -55,6 +55,10 @@ Then open http://localhost:5173 in your browser. You’re all set!
 
 ---
 
+## 🔗 Live Demo
+
+## 👉 [Try it on GitHub Pages](https://yasserotani.github.io/tenzies-game/)
+
 ## 📌 Notes
 
 This project was built as part of a Scrimba React course,
