@@ -27,7 +27,7 @@ Built with ❤️ using React and Vite.
 
 ## 📸 Screenshot
 
-![Game Screenshot](./img/screnshot.png)
+![Game Screenshot](./img/screenshot.png)
 
 ## 🚀 How to Run It Locally
 
