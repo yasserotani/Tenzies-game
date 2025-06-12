@@ -3,7 +3,7 @@
 This is my **first React project** — a simple and fun implementation of the classic Tenzies game!  
 Players roll 10 dice and try to make all of them show the same number. Dice can be held between rolls to lock in values.
 
-Built with ❤️ using React and Vite.
+Built using Basic React.
 
 ---
 
