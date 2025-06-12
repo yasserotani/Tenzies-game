@@ -25,12 +25,18 @@ Built with ❤️ using React and Vite.
 
 ---
 
+## 📸 Screenshot
+
+![Game Screenshot](./img/screnshot.png)
+
 ## 🚀 How to Run It Locally
+
+---
 
 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tenzies-game.git
+git clone https://github.com/yasserotani/tenzies-game.git
 ```
 
 2. Install the depandencies
