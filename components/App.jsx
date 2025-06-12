@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect, use } from "react";
+import { useState, useRef, useEffect } from "react";
 import Die from "./Die";
 import { nanoid } from "nanoid";
 import Confetti from "react-confetti";
-import logo from "./img/Tenzez_logo.png";
+import logo from "../img/Tenzez_logo.png";
 
 // Main game component
 export default function App() {
